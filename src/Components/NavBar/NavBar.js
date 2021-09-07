@@ -4,9 +4,10 @@ import './NavBar.css';
 const NavBar = () => {
     return (
         <div className="navbar">
-            <div class="logo">Finca las moras</div>
+            <div> <img className="logo" src="././logo.png" alt="logo" title="logo" /> </div>
             <div>
-                <ul>
+                <ul className="navbarLinks">
+                    <li>SHOP</li>
                     <li>PAZ</li>
                     <li>LOS INTOCABLES</li>
                     <li>ALMA MORA</li>

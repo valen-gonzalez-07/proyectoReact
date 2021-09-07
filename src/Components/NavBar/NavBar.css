@@ -1,3 +1,21 @@
 .navbar {
     background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbarLinks {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    column-gap: 20px;
+}
+
+.navbarLinks li {
+    list-style: none;
+}
+
+.logo {
+    width: 200px;
 }
