@@ -1,10 +1,21 @@
 import React from "react";
-import './Header.css';
+import './Header.scss';
+import Button from "./ButtonHeader/ButtonHeader.js";
+import ItemCount from "./ItemCount/ItemCount";
 
-const Header = ({source}) => {
+const Header = ({title, description, image}) => {
     return (
-        <div>
-            <img className="headerImg" src={source} alt="Copa de vino" />
+        <div className="homeContainer">
+            <div className="homeData">
+                <p className="titleHome">{title}</p>
+                <p className="descriptionHome">{description}</p>
+                <Button />
+                <ItemCount stock={20} initial={1} />
+            </div>
+            <div className="homeImg">
+                <div className="homeCircleImg"></div>
+                <img className="homeWine" src={image} alt="PAZ MALBEC"/>
+            </div>
         </div>
     )
 }
