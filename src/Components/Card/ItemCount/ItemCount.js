@@ -20,7 +20,7 @@ const ItemCount = ({stock, initial}) => {
     return (
         <div className="buttonItemCount">
             <button onClick={restar}>-</button>
-            <p>Cantidad: <b>{counter}</b></p>
+            <p><b>{counter}</b></p>
             <button onClick={sumar}>+</button>
         </div>
     )

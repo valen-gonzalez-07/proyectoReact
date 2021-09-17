@@ -1,0 +1,12 @@
+$blanco: #F5F5F5;
+$negro: #282423;
+
+.buttonComprar {
+    background-color: $negro;
+    color: $blanco;
+    border-radius: 50px;
+    padding: 10% 5%;
+    width: 150px;   
+    cursor: pointer;
+    text-align: center;
+}

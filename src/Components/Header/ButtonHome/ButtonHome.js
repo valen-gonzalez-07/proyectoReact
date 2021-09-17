@@ -1,7 +1,7 @@
 import React from 'react';
-import './ButtonHeader.scss';
+import './ButtonHome.scss';
 
-const Button = () => {
+const ButtonHome = () => {
     return (
         <div>
             <p className="buttonHeader">Conocelo</p>
@@ -9,4 +9,4 @@ const Button = () => {
     )
 }
 
-export default Button;
+export default ButtonHome;

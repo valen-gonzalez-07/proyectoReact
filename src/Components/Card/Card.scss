@@ -1,0 +1,60 @@
+$blanco: #F5F5F5;
+$dorado: #D48528;
+$negro: #282423;
+
+p {
+    color: $negro;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+    padding: 20px;
+    background-color: $blanco;
+    border-radius: 30px;
+    border: 1px solid transparent;
+}
+
+.cardCol {
+    display: flex;
+    align-items: center;
+    max-height: 300px;
+}
+
+.cardImg {
+    height: 280px;
+}
+
+.cardMarca {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.cardVarietal {
+    font-size: 1rem;
+    font-weight: 600;
+    color: $dorado;
+}
+
+.cardPrecio {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.cardStock {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.cardCol-2 {
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+

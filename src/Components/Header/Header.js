@@ -1,7 +1,6 @@
 import React from "react";
 import './Header.scss';
-import Button from "./ButtonHeader/ButtonHeader.js";
-import ItemCount from "./ItemCount/ItemCount";
+import ButtonHome from "./ButtonHome/ButtonHome.js";
 
 const Header = ({title, description, image}) => {
     return (
@@ -9,8 +8,7 @@ const Header = ({title, description, image}) => {
             <div className="homeData">
                 <p className="titleHome">{title}</p>
                 <p className="descriptionHome">{description}</p>
-                <Button />
-                <ItemCount stock={20} initial={1} />
+                <ButtonHome />
             </div>
             <div className="homeImg">
                 <div className="homeCircleImg"></div>
