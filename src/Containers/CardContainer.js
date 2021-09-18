@@ -1,8 +1,6 @@
 import * as React from 'react';
 import './CardContainer.scss';
 import Card from '../Components/Card/Card';
-import pazBonarda from '../img/pazBonarda.png';
-import pazMalbec from '../img/pazMalbec.png';
 
 const CardContainer = () => {
 
@@ -54,7 +52,7 @@ const productos = [
         marca: "PAZ", 
         varietal: "MALBEC", 
         precio: 1074, 
-        img: pazMalbec,
+        img: "https://i.postimg.cc/rwvtydG5/paz-Malbec.png",
     },
     {
         id: 1, 
@@ -63,7 +61,7 @@ const productos = [
         marca: "PAZ", 
         varietal: "BONARDA", 
         precio: 1074, 
-        img: pazBonarda,
+        img: "https://i.postimg.cc/jSW7r6fs/paz-Bonarda.png",
     },
     {
         id: 2, 
@@ -72,7 +70,7 @@ const productos = [
         marca: "PAZ", 
         varietal: "SYRAH", 
         precio: 1074, 
-        img: "../img/pazSyrah.png"
+        img: "https://i.postimg.cc/vTqcJDHg/pazSyrah.png"
     },
     {
         id: 3, 
@@ -81,7 +79,7 @@ const productos = [
         marca: "PAZ", 
         varietal: "SAUVIGNON BLANC", 
         precio: 1074, 
-        img: "../img/pazSauvignonBlanc.png"
+        img: "https://i.postimg.cc/fWBttqjz/paz-Sauvignon-Blanc.png"
     },
     {
         id: 4, 
@@ -90,7 +88,7 @@ const productos = [
         marca: "DADÁ", 
         varietal: "BLEND", 
         precio: 501, 
-        img: "./dada1.png"
+        img: "https://i.postimg.cc/0y376XvM/dada1.png"
     },
     {
         id: 5, 
@@ -99,7 +97,7 @@ const productos = [
         marca: "DADÁ 2", 
         varietal: "BLEND", 
         precio: 501, 
-        img: "./dada2.png"
+        img: "https://i.postimg.cc/sXCSmBv3/dada2.png"
     },
     {
         id: 6, 
@@ -108,7 +106,7 @@ const productos = [
         marca: "DADÁ 3", 
         varietal: "BLEND", 
         precio: 501, 
-        img: "./dada3.png"
+        img: "https://i.postimg.cc/R0HKw1CP/dada3.png"
     },
     {
         id: 7, 
@@ -117,7 +115,7 @@ const productos = [
         marca: "DADÁ 6", 
         varietal: "DULCE", 
         precio: 501, 
-        img: "./dada6.png"
+        img: "https://i.postimg.cc/63VZm9vn/dada6.png"
     },
     {
         id: 8, 
@@ -126,7 +124,7 @@ const productos = [
         marca: "DADÁ 7", 
         varietal: "DULCE", 
         precio: 819, 
-        img: "./dada7.png"
+        img: "https://i.postimg.cc/1X9FxLGT/dada7.png"
     },
     {
         id: 9, 
@@ -135,7 +133,7 @@ const productos = [
         marca: "DADÁ 7 MARACUYÁ", 
         varietal: "DULCE", 
         precio: 819, 
-        img: "./dada7PM.png"
+        img: "https://i.postimg.cc/RhXHvXG0/dada7PM.png"
     },
     {
         id: 10, 
@@ -144,7 +142,7 @@ const productos = [
         marca: "DADÁ 7 SWEET PINK", 
         varietal: "DULCE", 
         precio: 819, 
-        img: "./dada7SP.png"
+        img: "https://i.postimg.cc/G3QYPmr1/dada7SP.png"
     },
     {
         id: 11, 
@@ -153,6 +151,6 @@ const productos = [
         marca: "DADÁ 8", 
         varietal: "BLEND", 
         precio: 819, 
-        img: "./dada8.png"
+        img: "https://i.postimg.cc/SNx9gbNY/dada8.png"
     },
 ]
