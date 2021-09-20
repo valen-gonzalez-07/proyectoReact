@@ -17,6 +17,10 @@ p {
     background-color: $blanco;
     border-radius: 30px;
     border: 1px solid transparent;
+    a {
+        color: inherit;
+        font-weight: 600;
+    }
 }
 
 .cardCol {

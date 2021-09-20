@@ -7,6 +7,8 @@ $negro: #282423;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-right: 20px;
+    padding-left: 20px;
 
     button {
         display: flex;
@@ -16,10 +18,11 @@ $negro: #282423;
         height: 40px;
         border: 2px solid $negro;
         border-radius: 100%;
-        background-color: $blanco;
-        margin-left: 20px;
-        margin-right: 20px;
+        background-color: transparent;
         font-size: 1.8rem;
         cursor: pointer;
+    }
+    button:hover{
+        background-color: whitesmoke;
     }
 }

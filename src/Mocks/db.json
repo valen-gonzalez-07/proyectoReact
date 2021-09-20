@@ -7,7 +7,11 @@
             "marca": "PAZ", 
             "varietal": "MALBEC", 
             "precio": 1074, 
-            "img": "https://i.postimg.cc/rwvtydG5/paz-Malbec.png"
+            "img": "https://i.postimg.cc/rwvtydG5/paz-Malbec.png",
+            "descripcion": "De color violeta brillante. Sabor intenso a ciruelas maduras acompañado de notas de café tostado y chocolate, de textura suave y larga permanencia en boca.",
+            "comida": "Acompaña bien gran diversidad de quesos por su textura aterciopelada.",
+            "varietalDescripcion": "100% Malbec. Tiempo de guarda recomendado de 4 años.",
+            "temperatura": "Se sirve entre 16º y 18º."
         },
         {
             "id": 1, 
@@ -16,7 +20,11 @@
             "marca": "PAZ", 
             "varietal": "BONARDA", 
             "precio": 1074, 
-            "img": "https://i.postimg.cc/jSW7r6fs/paz-Bonarda.png"
+            "img": "https://i.postimg.cc/jSW7r6fs/paz-Bonarda.png",
+            "descripcion": "De color violáceo intenso con reflejos azulados. Sabores a moras maduras, chocolate, aromas a violetas y café tostado. De textura aterciopelada.",
+            "comida": "Acompaña bien pastas rellenas con carnes y gran diversidad de quesos por su textura suave y untuosa.",
+            "varietalDescripcion": "100% Bonarda. Tiempo de guarda recomendado de 4 años.",
+            "temperatura": "Se sirve entre 16º y 18º."
         },
         {
             "id": 2, 
@@ -25,7 +33,11 @@
             "marca": "PAZ", 
             "varietal": "SYRAH", 
             "precio": 1074, 
-            "img": "https://i.postimg.cc/vTqcJDHg/pazSyrah.png"
+            "img": "https://i.postimg.cc/vTqcJDHg/pazSyrah.png",
+            "descripcion": "De color rojo intenso. Sabores a pimienta negra, pimienta blanca, frutos negros y vainilla. Es un vino intenso de textura suave.",
+            "comida": "Acompaña bien cordero o carnes rojas aromatizadas con hierbas frescas.",
+            "varietalDescripcion": "100% Syrah. Tiempo de guarda recomendado de 4 años.",
+            "temperatura": "Se sirve entre 16º y 18º."
         },
         {
             "id": 3, 
@@ -34,7 +46,11 @@
             "marca": "PAZ", 
             "varietal": "SAUVIGNON BLANC", 
             "precio": 1074, 
-            "img": "https://i.postimg.cc/fWBttqjz/paz-Sauvignon-Blanc.png"
+            "img": "https://i.postimg.cc/fWBttqjz/paz-Sauvignon-Blanc.png",
+            "descripcion": "Posee intensos y complejos aromas a frutas tropicales con notas herbáceas que caracterizan a esta variedad. En boca es muy fresco y con un extenso final.",
+            "comida": "Acompaña muy bien pescados blancos o grasos como el salmón y el atún.",
+            "varietalDescripcion": "100% Sauvignon Blanc. Tiempo de guarda recomendado de 2 años.",
+            "temperatura": "Se sirve entre 8º y 10º."
         },
         {
             "id": 4, 
@@ -43,7 +59,11 @@
             "marca": "DADÁ", 
             "varietal": "BLEND", 
             "precio": 501, 
-            "img": "https://i.postimg.cc/0y376XvM/dada1.png"
+            "img": "https://i.postimg.cc/0y376XvM/dada1.png",
+            "descripcion": "Delicado blend elaborado con uvas tintas de color rojo intenso. Su pasaje por roble americano de tostado medio le entrega aromas a vainilla que se integran en boca con dulzura y suaves taninos.",
+            "comida": "Un complemento ideal para carnes asadas, cerdo o cordero. Combina de forma espectacular con una ensalada Loren y tabla de quesos duros.",
+            "varietalDescripcion": "Bonarda y Malbec.",
+            "temperatura": "Servir a 16°. Botella fresca."
         },
         {
             "id": 5, 
@@ -52,7 +72,11 @@
             "marca": "DADÁ 2", 
             "varietal": "BLEND", 
             "precio": 501, 
-            "img": "https://i.postimg.cc/sXCSmBv3/dada2.png"
+            "img": "https://i.postimg.cc/sXCSmBv3/dada2.png",
+            "descripcion": "Elegante vino elaborado con uvas de color rojo profundo. Su paso por roble francés y americano de tostado fuerte le otorgan aromas a mokka que se integran en boca con frutas negras, moras y cassis.",
+            "comida": "Sugerimos acompañar platos de pastas estilo italiana o preparaciones al wok.",
+            "varietalDescripcion": "100% Merlot.",
+            "temperatura": "Servir a 16°. Botella fresca."
         },
         {
             "id": 6, 
@@ -61,7 +85,11 @@
             "marca": "DADÁ 3", 
             "varietal": "BLEND", 
             "precio": 501, 
-            "img": "https://i.postimg.cc/R0HKw1CP/dada3.png"
+            "img": "https://i.postimg.cc/R0HKw1CP/dada3.png",
+            "descripcion": "Exquisito blend elaborado con uvas tintas, en las que se destacan aromas a especias y un color rojo intenso. Junto con el pasaje por madera de roble francés de tostado medio fuerte, se potencian las notas a pimienta, canela, coco y regaliz.",
+            "comida": "Un complemento ideal para platos de pastas o risottos. También combina maravillosamente con carnes especiadas o quesos maduros.",
+            "varietalDescripcion": "Syrah y Cabernet Sauvignon.",
+            "temperatura": "Servir a 16°. Botella fresca."
         },
         {
             "id": 7, 
@@ -70,7 +98,11 @@
             "marca": "DADÁ 6", 
             "varietal": "DULCE", 
             "precio": 501, 
-            "img": "https://i.postimg.cc/63VZm9vn/dada6.png"
+            "img": "https://i.postimg.cc/63VZm9vn/dada6.png",
+            "descripcion": "Blend de uvas blancas que se cosechan de forma tardía otorgando un color dorado brillante. Su paso por roble otorga delicadas notas a vainilla que junto con la esencia natural de miel logran untuosidad y frescura. En boca se destacan los sabores a caramelo que recuerdan al néctar de una flor.",
+            "comida": "Lo recomendamos como aperitivo, con algunos bocados salteados sobre panes tipo focaccias o tablas de frutos de mar.",
+            "varietalDescripcion": "Dulce",
+            "temperatura": "Servir 5°C a 9° C. ¡Bien frío!"
         },
         {
             "id": 8, 
@@ -79,7 +111,11 @@
             "marca": "DADÁ 7", 
             "varietal": "DULCE", 
             "precio": 819, 
-            "img": "https://i.postimg.cc/1X9FxLGT/dada7.png"
+            "img": "https://i.postimg.cc/1X9FxLGT/dada7.png",
+            "descripcion": "Delicado espumante dulce natural elaborado con método Charmat. De color amarillo verdoso con aromas florales y sabor muy frutado.",
+            "comida": "Ideal para comidas exóticas de sabor especiado y salsas agridulces. Postres, frutas secas y algunos quesos de sabor suave.",
+            "varietalDescripcion": "100% Torrontés.",
+            "temperatura": "Servir a 7º. Bien frio."
         },
         {
             "id": 9, 
@@ -88,7 +124,11 @@
             "marca": "DADÁ 7 MARACUYÁ", 
             "varietal": "DULCE", 
             "precio": 819, 
-            "img": "https://i.postimg.cc/RhXHvXG0/dada7PM.png"
+            "img": "https://i.postimg.cc/RhXHvXG0/dada7PM.png",
+            "descripcion": "Espumante frutado dulce natural, método Charmat. Su sabor frutado y floral, se combina con las notas de fruta tropical del Maracuyá logrando una perfecta armonía entre dulzor y frescura.",
+            "comida": "Ideal para acompañar frutos de mar. Y también postres dulces y cremosos.",
+            "varietalDescripcion": "98% Torrontés, 2% Malbec, 0.30% Esencia de Maracuyá Natural.",
+            "temperatura": "Servir a 9º. Bien frio."
         },
         {
             "id": 10, 
@@ -97,7 +137,11 @@
             "marca": "DADÁ 7 SWEET PINK", 
             "varietal": "DULCE", 
             "precio": 819, 
-            "img": "https://i.postimg.cc/G3QYPmr1/dada7SP.png"
+            "img": "https://i.postimg.cc/G3QYPmr1/dada7SP.png",
+            "descripcion": "Delicado espumante dulce natural elaborado con método Charmat. Se destaca el aroma a rosas, con sabor cítrico y especiado.",
+            "comida": "Ideal para acompañar frutos de mar, postres dulces y cremosos.",
+            "varietalDescripcion": "98% Torrontés – 2% Malbec.",
+            "temperatura": "Servir a 9º. Bien frio."
         },
         {
             "id": 11, 
@@ -106,7 +150,11 @@
             "marca": "DADÁ 8", 
             "varietal": "BLEND", 
             "precio": 819, 
-            "img": "https://i.postimg.cc/SNx9gbNY/dada8.png"
+            "img": "https://i.postimg.cc/SNx9gbNY/dada8.png",
+            "descripcion": "Original blend elaborado con uvas de piel oscura que otorgan un color rojo intenso. Su paso por roble francés de tostado medio, junto a la esencia natural de cacao negro, entrega exquisitas notas a caramelo y frutos secos. En boca se perciben taninos suaves y un largo final.",
+            "comida": "Sugerimos disfrutarlo con bocados tipo tapas, carnes grilladas y ribs de cerdo.",
+            "varietalDescripcion": "Blend.",
+            "temperatura": "Servir a 16° y 18ºc."
         }
     ]
 }

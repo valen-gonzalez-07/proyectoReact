@@ -10,12 +10,17 @@
     justify-content: space-around;
     align-items: flex-end;
     column-gap: 20px;
+    li {
+        list-style: none;
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
 }
 
-.navbarLinks li {
-    list-style: none;
-}
 
 .logo {
     width: 200px;
 }
+

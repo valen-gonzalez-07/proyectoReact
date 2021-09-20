@@ -6,7 +6,7 @@ const ItemCount = ({stock, initial}) => {
     const [counter, setCounter] = React.useState(initial);
 
     const restar = () => {
-        if (counter > 0){
+        if (counter > 1){
             setCounter((state) => state - 1);
         }
     }

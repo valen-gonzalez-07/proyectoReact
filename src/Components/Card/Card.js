@@ -1,9 +1,10 @@
 import * as React from 'react';
 import './Card.scss';
-import ItemCount from './ItemCount/ItemCount.js';
-import ButtonComprar from './ButtonComprar/ButtonComprar';
+import ItemCount from '../ItemCount/ItemCount.js';
+import ButtonComprar from '../ButtonComprar/ButtonComprar';
+import { Link } from 'react-router-dom';
 
-const Card = ({id, marca, varietal, img, precio, initial, stock}) => {
+const Card = ({productId, marca, varietal, img, precio, initial, stock}) => {
     return (
         <div className="card">
             <div className="cardCol">
@@ -25,6 +26,9 @@ const Card = ({id, marca, varietal, img, precio, initial, stock}) => {
             </div>
             <div>
                 <ButtonComprar />
+            </div>
+            <div>
+                <Link to={`/product/${productId}`}> <p>Ver detalle</p> </Link>
             </div>
         </div>
         

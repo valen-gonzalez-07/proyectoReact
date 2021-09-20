@@ -32,6 +32,7 @@ const CardContainer = () => {
                 return (
                     <Card 
                         key={producto.id}
+                        productId={producto.id}
                         initial={producto.initial}
                         stock={producto.stock}
                         marca={producto.marca}

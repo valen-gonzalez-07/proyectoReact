@@ -1,0 +1,60 @@
+@import '../../App.scss';
+
+.productDetail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    img {
+        height: 70vh;
+        margin: auto;
+    }
+}
+
+.titleDetail {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.descriptionDetail {
+    margin-bottom: 20px;
+}
+
+.iconDetailContainer {
+    margin-bottom: 30px;
+}
+
+.iconDetail {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 10px;
+    margin-bottom: 15px;
+}
+
+.iconDetailTitle {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.precioDetail{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.itemCountDetail {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    p {
+        font-weight: 600;
+        font-size: 1.3rem;
+    }
+}
+
+.buttonComprarDetail button {
+    height: 60px;
+}

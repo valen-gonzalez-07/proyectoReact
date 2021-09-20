@@ -1,18 +1,23 @@
 import './App.scss';
 import NavBar from './Components/NavBar/NavBar.js'
-import Header from './Components/Header/Header.js'
-import CardContainer from './Containers/CardContainer';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import Home from './Pages/Home';
+import Shop from './Pages/Shop';
+import NotFound from './Pages/NotFound';
+import ProductDetail from './Pages/ProductDetail';
 
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <Header 
-      title="PAZ"
-      description="TENER LO ÚNICO QUE HAY QUE TENER" 
-      image="https://i.postimg.cc/rwvtydG5/paz-Malbec.png" 
-      />
-      <CardContainer />
+      <BrowserRouter>
+        <NavBar />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/shop" component={Shop} />
+          <Route exact path="/product/:id" component={ProductDetail} />
+          <Route exact path="*" component={NotFound} />
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }
