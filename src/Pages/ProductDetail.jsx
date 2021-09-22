@@ -4,7 +4,7 @@ import ProductDetailC from '../Components/ProductDetailC/ProductDetailC';
 
 const ProductDetail = () => {
 
-    const [data, setData] = React.useState({});
+    const [data, setData] = React.useState();
     const [cargando, setCargando] = React.useState(false);
     const [error, setError] = React.useState(null);
     const {id} = useParams();
