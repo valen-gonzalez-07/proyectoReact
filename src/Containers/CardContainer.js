@@ -27,7 +27,7 @@ const CardContainer = () => {
     return (
         <div>
             <section className="cardContainer">
-                {cargando && <h1>CARGANDO...</h1>}
+                {cargando && <div className="spinner"></div>}
                 {error && <h1>Ha habido un Error: {error.status} {error.statusText}</h1>}
                 {items?.map((producto) => {
                     return (

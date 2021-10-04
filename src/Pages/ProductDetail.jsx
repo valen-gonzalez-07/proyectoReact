@@ -20,7 +20,7 @@ const ProductDetail = () => {
 
     return (
         <section>
-            {cargando && <h1>CARGANDO...</h1>}
+            {cargando && <div className="spinner"></div>}
             {error && <h1>Ha habido un error</h1>}
             <ProductDetailC
                 productId={data?.id}

@@ -5,7 +5,7 @@ import ButtonComprar from '../ButtonComprar/ButtonComprar';
 
 const ProducDetailC = ({productId, title, varietal, img, precio, initial, stock, descripcion, varietalDescripcion, temperatura, comida}) => {
     return (
-        <div className="productDetail">
+        <div className="productDetail" transition-style="in:wipe:left">
             <div>
                 <img src={img} alt={`${title} ${varietal}`} />
             </div>

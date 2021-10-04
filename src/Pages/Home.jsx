@@ -4,9 +4,9 @@ import { SliderData } from '../Components/Slider/SliderData';
 
 const Home = () => {
     return (
-        <>
+        <div transition-style="in:circle:center">
             <Slider slides={SliderData} />
-        </>
+        </div>
     )
 }
 
