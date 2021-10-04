@@ -1,11 +1,14 @@
 import * as React from 'react';
-import './ButtonComprar.scss'
+import './ButtonComprar.scss';
+import { Link } from 'react-router-dom'
 
 const ButtonComprar = () => {
     return (
-        <div>
-            <p className="buttonComprar">COMPRAR</p>
-        </div>
+        <>
+        <Link exact to="/cart" > 
+            <button className="btnComprar">COMPRAR</button> 
+        </Link>
+        </>
     )
 }
 

@@ -1,6 +1,4 @@
-$blanco: #F5F5F5;
-$dorado: #D48528;
-$negro: #282423;
+@import '../../App.scss';
 
 .buttonItemCount {
     width: 180px;
@@ -16,7 +14,7 @@ $negro: #282423;
         align-items: center;
         width: 40px;
         height: 40px;
-        border: 2px solid $negro;
+        border: 2px solid $pazNegro;
         border-radius: 100%;
         background-color: transparent;
         font-size: 1.8rem;

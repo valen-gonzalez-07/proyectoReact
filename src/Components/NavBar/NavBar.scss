@@ -8,7 +8,7 @@
 .navbarLinks {
     display: flex;
     justify-content: space-around;
-    align-items: flex-end;
+    align-items: center;
     column-gap: 20px;
     li {
         list-style: none;
@@ -19,8 +19,11 @@
     }
 }
 
-
 .logo {
     width: 200px;
 }
 
+.selected {
+    font-weight: bold;
+    font-size: inherit;
+}

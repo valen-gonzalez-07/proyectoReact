@@ -3,19 +3,19 @@ import './ProductDetailC.scss';
 import ItemCount from '../ItemCount/ItemCount';
 import ButtonComprar from '../ButtonComprar/ButtonComprar';
 
-const ProducDetailC = ({productId, marca, varietal, img, precio, initial, stock, descripcion, varietalDescripcion, temperatura, comida}) => {
+const ProducDetailC = ({productId, title, varietal, img, precio, initial, stock, descripcion, varietalDescripcion, temperatura, comida}) => {
     return (
         <div className="productDetail">
             <div>
-                <img src={img} alt={`${marca} ${varietal}`} />
+                <img src={img} alt={`${title} ${varietal}`} />
             </div>
             <div>
-                <p className="titleDetail">{marca} {varietal}</p>
+                <p className="titleDetail">{title} {varietal}</p>
                 <p className="descriptionDetail">{descripcion}</p>
                 <div className="iconDetailContainer">
                     <div className="iconDetail">
                         <svg width="50" height="50" viewBox="0 0 160 160" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path fillRule="evenodd" clipRule="evenodd" d="M80 155C121.421 155 155 121.421 155 80C155 38.5786 121.421 5 80 5C38.5786 5 5 38.5786 5 80C5 121.421 38.5786 155 80 155ZM80 160C124.183 160 160 124.183 160 80C160 35.8172 124.183 0 80 0C35.8172 0 0 35.8172 0 80C0 124.183 35.8172 160 80 160ZM77 46H44V64.5C44 83 52.6667 88.1667 57.5 90V108H46.5V112.5H77V108H64.5V90C76.1 87.2 77 68 77 64.5V46ZM97.0898 74.4356C99.0168 75.9415 99.9111 76.6404 99.9111 78.2996V108.812C99.9111 111.124 101.79 113 104.11 113C106.432 113 108.311 111.124 108.311 108.812V78.3135C108.311 76.6337 109.197 75.9508 111.119 74.4696C111.439 74.2228 111.788 73.9537 112.167 73.6543C114.157 72.0798 115.572 69.5952 115.299 67.0771C114.525 59.9723 112.644 46 112.644 46H111.111V62.75H108.311L107.756 46H106.187L105.511 62.75H102.711L102.228 46H100.534L99.9111 62.75H97.1111V46H95.4361C95.4361 46 93.7331 60.0644 93.0296 67.1469C92.7812 69.6287 94.1212 72.0658 96.067 73.6291C96.4356 73.9244 96.7764 74.1906 97.0898 74.4356Z" fill="black"/>
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M80 155C121.421 155 155 121.421 155 80C155 38.5786 121.421 5 80 5C38.5786 5 5 38.5786 5 80C5 121.421 38.5786 155 80 155ZM80 160C124.183 160 160 124.183 160 80C160 35.8172 124.183 0 80 0C35.8172 0 0 35.8172 0 80C0 124.183 35.8172 160 80 160ZM77 46H44V64.5C44 83 52.6667 88.1667 57.5 90V108H46.5V112.5H77V108H64.5V90C76.1 87.2 77 68 77 64.5V46ZM97.0898 74.4356C99.0168 75.9415 99.9111 76.6404 99.9111 78.2996V108.812C99.9111 111.124 101.79 113 104.11 113C106.432 113 108.311 111.124 108.311 108.812V78.3135C108.311 76.6337 109.197 75.9508 111.119 74.4696C111.439 74.2228 111.788 73.9537 112.167 73.6543C114.157 72.0798 115.572 69.5952 115.299 67.0771C114.525 59.9723 112.644 46 112.644 46H111.111V62.75H108.311L107.756 46H106.187L105.511 62.75H102.711L102.228 46H100.534L99.9111 62.75H97.1111V46H95.4361C95.4361 46 93.7331 60.0644 93.0296 67.1469C92.7812 69.6287 94.1212 72.0658 96.067 73.6291C96.4356 73.9244 96.7764 74.1906 97.0898 74.4356Z" fill="black"/>
                         </svg>
                         <div>
                             <p className="iconDetailTitle">FOOD MATCH</p>
@@ -48,8 +48,8 @@ const ProducDetailC = ({productId, marca, varietal, img, precio, initial, stock,
                     initial={initial ? initial : 1}
                     stock={stock} />
                 </div>
-                <div className="buttonComprarDetail">
-                    <ButtonComprar />
+                <div>
+                    <ButtonComprar className="btnComprar" />
                 </div>
             </div>
         </div>

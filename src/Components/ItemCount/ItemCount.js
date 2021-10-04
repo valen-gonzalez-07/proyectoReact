@@ -1,5 +1,7 @@
 import * as React from 'react';
 import './ItemCount.scss';
+import { CartContext } from '../../Context/CartContext';
+import CartWidget from './CartWidget/CartWidget';
 
 const ItemCount = ({stock, initial}) => {
 
@@ -20,8 +22,9 @@ const ItemCount = ({stock, initial}) => {
     return (
         <div className="buttonItemCount">
             <button onClick={restar}>-</button>
-            <p><b>{counter}</b></p>
+                <p><b>{counter}</b></p>
             <button onClick={sumar}>+</button>
+            <CartContext.Provider value={counter} />
         </div>
     )
 }

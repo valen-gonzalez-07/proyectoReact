@@ -1,9 +1,7 @@
-$blanco: #F5F5F5;
-$dorado: #D48528;
-$negro: #282423;
+@import "../../App.scss";
 
 p {
-    color: $negro;
+    color: $pazNegro;
 }
 
 .card {
@@ -14,7 +12,7 @@ p {
     align-items: center;
     width: 280px;
     padding: 20px;
-    background-color: $blanco;
+    background-color: white;
     border-radius: 30px;
     border: 1px solid transparent;
     a {
@@ -41,7 +39,7 @@ p {
 .cardVarietal {
     font-size: 1rem;
     font-weight: 600;
-    color: $dorado;
+    color: $pazDorado;
 }
 
 .cardPrecio {

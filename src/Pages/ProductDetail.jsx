@@ -26,7 +26,7 @@ const ProductDetail = () => {
                 productId={data?.id}
                 initial={data?.initial}
                 stock={data?.stock}
-                marca={data?.marca}
+                marca={data?.title}
                 varietal={data?.varietal}
                 precio={data?.precio}
                 img={data?.img}
