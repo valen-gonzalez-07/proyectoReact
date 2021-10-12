@@ -3,12 +3,15 @@ import { CartContext } from '../../../Context/CartContext';
 import './CartWidget.scss';
 
 const CartWidget = () => {
-    const counter = React.useContext(CartContext);
+
+    const {cart} = React.useContext(CartContext)
 
     return (
         <div className="cartWidget">
             <i className="fas fa-shopping-cart"></i>
-            <p>{counter}</p>
+            {
+                cart.length !== 0 && <span>{cart.length}</span>
+            }
         </div>
     )
 }

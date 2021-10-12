@@ -25,9 +25,6 @@ const Card = ({productId, marca, varietal, img, precio, initial, stock}) => {
                 />
             </div>
             <div>
-                <ButtonComprar />
-            </div>
-            <div>
                 <Link to={`/product/${productId}`}> <p>Ver detalle</p> </Link>
             </div>
         </div>

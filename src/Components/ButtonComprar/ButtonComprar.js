@@ -1,15 +1,10 @@
 import * as React from 'react';
 import './ButtonComprar.scss';
-import { Link } from 'react-router-dom'
 
 const ButtonComprar = () => {
     return (
-        <>
-        <Link exact to="/cart" > 
-            <button className="btnComprar">COMPRAR</button> 
-        </Link>
-        </>
+        <button className="btnComprar">AGREGAR AL CARRITO</button> 
     )
 }
 
-export default ButtonComprar
+export default ButtonComprar;

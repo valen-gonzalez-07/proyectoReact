@@ -5,6 +5,8 @@ import ButtonSlide from "../ButtonSlide/ButtonSlide";
 
 const Slider = ({slides}) => {
 
+    const [background, setBackground] = React.useState("");
+
     const [current, setCurrent] = React.useState(0); 
     const length = slides.length;
 
@@ -27,7 +29,7 @@ const Slider = ({slides}) => {
                                 <div className="slideData" >
                                     <p className="slideTitle">{slide.title}</p>
                                     <p className="slideDescription">{slide.description}</p>
-                                    <ButtonSlide />
+                                    <ButtonSlide onClick={() => setBackground(slide.className)} />
                                 </div>
                                 <div className="slideImg">
                                     <div className="slideCircle"></div>
